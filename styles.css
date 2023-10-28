@@ -14,11 +14,27 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-light: #C7BCAF;
+    --color-green: #768377;
+    --color-yellow: #CB891D;
+    --color-red: #CC625A;
+    --color-dark: #383835;
+    --color-brown: #6E4A0F;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Heebo', sans-serif;
+}
+
 /* Navbar Styles*/
 #navbar {
     display: flex;
     justify-content: space-between;
-    padding: 30px 45px;
+    /* 
+    padding: 3rem 4.5rem; */
+    background-color: var(--color-dark);
 
 }
 
@@ -30,9 +46,18 @@
 
 .navbar-list-item {
     list-style: none;
-    margin-right: 12px;
+    margin-left: 1rem;
 }
 
 .nav-item {
     text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-light);
+}
+
+#logo {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-light);
 }
