@@ -13,3 +13,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Navbar Styles*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px;
+
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list-item {
+    list-style: none;
+    margin-right: 12px;
+}
+
+.nav-item {
+    text-decoration: none;
+}
