@@ -66,3 +66,14 @@ body {
     font-weight: 600;
     color: var(--color-light);
 }
+
+/*Hero Image and Overlay*/
+
+#heroImg {
+    /*Photo by Cristina Gottardi on Unsplash*/
+    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
