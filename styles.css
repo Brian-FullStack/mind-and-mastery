@@ -76,4 +76,10 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
+    position: relative;
+}
+
+#imageOverlay {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(56, 56, 53), rgba(56, 56, 53, .5));
 }
