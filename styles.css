@@ -92,6 +92,29 @@ body {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 40%;
+    top: 30%;
     margin: 0 auto;
+}
+
+.title-text {
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    color: var(--color-yellow);
+}
+
+#heroCopy {
+    font-size: 2rem;
+    width: 40%;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.btn-site-wide {
+    font-size: 1rem;
+    color: var(--color-light);
+    background-color: #CB891D;
+    padding: .75rem 2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 20px 3px var(--color-dark);
 }
