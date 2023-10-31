@@ -68,7 +68,6 @@ body {
 }
 
 /*Hero Image and Overlay*/
-
 #heroImg {
     /*Photo by Cristina Gottardi on Unsplash*/
     background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg);
@@ -82,4 +81,17 @@ body {
 #imageOverlay {
     height: 100vh;
     background-image: linear-gradient(to bottom, rgb(56, 56, 53), rgba(56, 56, 53, .5));
+}
+
+/*Hero Title and Text*/
+
+#heroContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    margin: 0 auto;
 }
