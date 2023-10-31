@@ -119,3 +119,68 @@ body {
     border: none;
     box-shadow: 0 8px 20px 3px var(--color-dark);
 }
+
+
+/*Subscription Area*/
+
+#subscribeBanner {
+    background-color: #383835;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 3rem;
+}
+
+#subscribeBannerCTA {
+    margin-right: 1rem;
+    padding-left: 1rem;
+
+    width: 50%;
+}
+
+#subscribeBannerForm {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5rem;
+    width: 50%;
+}
+
+.secondary-title {
+    color: var(--color-yellow);
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+#subscribeBannerCTA>p {
+    color: var(--color-light);
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+#subscribeBannerForm form input {
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: #D9D9D9;
+    font-size: 2rem;
+}
+
+#subscribeBannerForm form button {
+    border: none;
+    border-radius: 8px;
+    width: 90%;
+    padding: .75rem 1rem;
+    margin: .5rem;
+    color: var(--color-light);
+    background-color: var(--color-yellow);
+    font-size: 2rem;
+}
+
+#smallText {
+    color: var(--color-light);
+    font-size: 1rem;
+    font-weight: 100;
+    margin: .5rem;
+}
