@@ -68,6 +68,12 @@ body {
     color: var(--color-light);
 }
 
+/*Mobile Navigation*/
+#navButton,
+#navButtonLabel {
+    display: none;
+}
+
 /*Hero Image and Overlay*/
 #heroImg {
     /*Photo by Cristina Gottardi on Unsplash*/
