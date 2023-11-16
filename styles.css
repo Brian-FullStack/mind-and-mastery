@@ -35,7 +35,8 @@ body {
     justify-content: space-between;
     padding: 1rem 1.5rem;
     background-color: var(--color-dark);
-
+    position: fixed;
+    z-index: 99;
 }
 
 .navbar-list {
@@ -68,11 +69,45 @@ body {
     color: var(--color-light);
 }
 
-/*Mobile Navigation*/
-#navButton,
-#navButtonLabel {
-    display: none;
+@media (max-width: 600px) {
+
+    #navbar {
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: var(--color-dark);
+        left: 0;
+        top: 100%;
+        width: 100%;
+
+        display: none;
+    }
+
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-list-item {
+        margin: 1rem 0;
+    }
+
+    /*Navigation Burger Menu*/
+    #navButton:checked~.menu {
+        display: block;
+    }
 }
+
+
 
 /*Hero Image and Overlay*/
 #heroImg {
