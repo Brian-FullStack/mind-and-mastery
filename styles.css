@@ -137,11 +137,11 @@ body {
 /*Hero Image and Overlay*/
 #heroImg {
     /*Photo by Cristina Gottardi on Unsplash*/
-    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg);
+    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg) no-repeat center center/cover;
     height: 100vh;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% auto;
+    background-size: 100% auto; */
     position: relative;
 }
 
@@ -192,6 +192,26 @@ body {
 
 }
 
+/*Hero Section Media Queries*/
+@media (max-width: 600px) {
+    .title-text {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #heroCopy {
+        font-size: 1.5rem;
+        width: 100%;
+        color: var(--color-light);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .btn-site-wide {
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+    }
+}
 
 /*Subscription Area*/
 
