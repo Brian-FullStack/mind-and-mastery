@@ -68,6 +68,10 @@ body {
     color: var(--color-yellow);
 }
 
+.active {
+    color: var(--color-yellow);
+}
+
 #logo {
     font-family: 'Cinzel', serif;
     font-size: 2rem;
@@ -78,6 +82,10 @@ body {
 /**Media Queries for Mobile Navigation*/
 
 @media (max-width: 600px) {
+
+    #logo {
+        font-size: 1.5rem;
+    }
 
     #navbar {
         position: fixed;
@@ -241,6 +249,44 @@ body {
     font-size: 1rem;
     font-weight: 100;
     margin: .5rem;
+}
+
+/*Subscription Area Media Queries*/
+@media (max-width: 600px) {
+
+    #subscribeBanner {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    #subscribeBannerCTA {
+        width: 100%;
+    }
+
+    #subscribeBannerCTA>p {
+        font-size: 1.25rem;
+    }
+
+    .secondary-title {
+        font-size: 2rem;
+    }
+
+    #subscribeBannerForm {
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    #subscribeBannerForm form input {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    #subscribeBannerForm form button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }
 
 
