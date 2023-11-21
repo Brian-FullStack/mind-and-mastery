@@ -34,6 +34,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem 1.5rem;
+    width: 100%;
     background-color: var(--color-dark);
     position: fixed;
     z-index: 99;
@@ -43,6 +44,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#navButton,
+#navButtonLabel {
+    display: none;
 }
 
 .navbar-list-item {
@@ -69,12 +75,14 @@ body {
     color: var(--color-light);
 }
 
+/**Media Queries for Mobile Navigation*/
+
 @media (max-width: 600px) {
 
     #navbar {
         position: fixed;
         z-index: 99;
-        width: 100%;
+        width: 100vw;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -106,8 +114,8 @@ body {
         display: block;
     }
 
-    #navButton {
-        display: none;
+    #navButtonLabel {
+        display: block;
     }
 
     #navButtonLabel {
