@@ -426,3 +426,14 @@ footer {
 .social-link:hover {
     color: var(--color-yellow);
 }
+
+#footerRule {
+    margin-top: 1rem;
+    color: var(--color-yellow);
+}
+
+#footerSmallText {
+    margin: 1rem auto;
+    text-align: center;
+    color: var(--color-light);
+}
