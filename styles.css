@@ -437,3 +437,23 @@ footer {
     text-align: center;
     color: var(--color-light);
 }
+
+/*Footer Media Queries*/
+@media (max-width: 600px) {
+
+    #footerNav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #quickLinks,
+    #socialLinks {
+        margin-top: 1rem;
+    }
+
+    #socialLinks ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
