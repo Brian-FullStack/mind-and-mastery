@@ -431,13 +431,17 @@ body {
 
 .card-footer {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .article-link a {
     color: var(--color-dark);
     text-decoration: none;
     font-size: 1rem;
+}
+
+.article-link {
+    margin: 0 auto 0 .5rem;
 }
 
 .article-readtime {
@@ -458,6 +462,15 @@ body {
 .red {
     background-color: var(--color-red);
     color: var(--color-light);
+}
+
+/*Photo by Alyona Grishina on Unsplash*/
+#profileImage {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: url("assets/images/alyona-grishina-BBmi4nJjKk8-unsplash.jpg") no-repeat center center/cover;
 }
 
 @media (max-width: 600px) {
