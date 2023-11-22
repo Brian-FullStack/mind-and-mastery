@@ -369,24 +369,26 @@ body {
     margin-top: 1rem;
 }
 
+/*Photo by Alexander Tsang on Unsplash*/
 .image-container-1 {
     background: url("assets/images/door-image.jpg") no-repeat center center/cover;
     border-radius: 8px;
     height: 100%;
 }
 
+/*Photo by Estée Janssens on Unsplash*/
 .image-container-2 {
     background: url("assets/images/estee-janssens-zEqkUMiMxMI-unsplash.jpg") no-repeat center center/cover;
     border-radius: 8px;
     height: 100%;
 }
 
+/*Photo by Jessica Felicio on Unsplash*/
 .image-container-3 {
     background: url("assets/images/jessica-felicio-YEbFUPYfUlo-unsplash.jpg") no-repeat center center/cover;
     border-radius: 8px;
     height: 100%;
 }
-
 
 .card-secondary {
     background-color: var(--color-yellow);
@@ -413,6 +415,7 @@ body {
 }
 
 .card-title {
+    font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     padding-bottom: 1rem;
 }
@@ -459,11 +462,29 @@ body {
     }
 
     .cards-container {
-        margin-top: 2rem;
+        margin-top: 5rem;
+        padding: 0%;
+        width: 100%;
     }
 
     .card-primary {
-        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .card-secondary {
+        margin-bottom: 5rem;
+    }
+
+    .mt--20 {
+        margin: 0 auto 2rem;
+    }
+
+    .card-image-container {
+        height: 250px;
+    }
+
+    .card-image-container:nth-of-type(1) {
+        margin: -2rem auto 1rem auto;
     }
 }
 
