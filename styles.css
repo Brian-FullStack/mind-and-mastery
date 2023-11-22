@@ -329,13 +329,23 @@ body {
 }
 
 .heading-sitewide {
+    font-family: 'Cinzel', serif;
     font-size: 3rem;
     color: var(--color-dark);
 }
 
+.cards-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
 .card-primary {
     background-color: #D9D9D9;
-    height: 400px;
+    /* height: 400px; */
     width: 415px;
     display: flex;
     flex-direction: column;
@@ -343,21 +353,41 @@ body {
     border-radius: 8px;
 }
 
-.card-primary:first-child {
-    display: flex;
-    align-items: center;
+/*https://copyprogramming.com/howto/select-first-div-of-mutliple-div-with-same-class-name-duplicate#select-first-div-of-mutliple-div-with-same-class-name-duplicate*/
+/*Target the first element in multiple divs*/
+.card-image-container:nth-of-type(1) {
+    margin: -4rem auto 1rem auto;
 }
 
 .card-image-container {
     background-color: var(--color-green);
-    height: 60%;
+    height: 350px;
     width: 90%;
     border-radius: 8px;
+    box-shadow: 0 4px 15px 3px #868685;
+    margin-top: 1rem;
+}
+
+.image-container-1 {
+    background: url("assets/images/door-image.jpg") no-repeat center center/cover;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.card-secondary {
+    background-color: var(--color-yellow);
+    width: 415px;
+    height: fit-content;
+    border-radius: 8px;
+}
+
+.secondary-card-copy {
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card-copy-container {
     padding: 1rem 2rem;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -392,6 +422,21 @@ body {
 .article-readtime {
     color: var(--color-brown);
     font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+
+    .heading-sitewide {
+        font-size: 2rem;
+    }
+
+    .cards-container {
+        margin-top: 2rem;
+    }
+
+    .card-primary {
+        width: 100%;
+    }
 }
 
 
