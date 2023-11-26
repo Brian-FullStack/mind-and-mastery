@@ -713,3 +713,23 @@ em {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 600px) {
+    .article-page-content {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .main-article-image {
+        width: 100%;
+    }
+
+    .more-articles {
+        width: 100%;
+    }
+}
