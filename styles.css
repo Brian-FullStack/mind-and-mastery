@@ -647,6 +647,17 @@ em {
     font-weight: 300;
 }
 
+.daily-stoic-link a {
+    color: var(--color-brown);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 300ms ease-in-out;
+}
+
+.daily-stoic-link a:hover {
+    color: var(--color-yellow);
+}
+
 .more-articles {
     width: 20%;
     height: 100%;
