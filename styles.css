@@ -620,3 +620,36 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 15px 3px #868685;
 }
+
+.article-page-content {
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem;
+}
+
+.article {
+    width: 80%;
+    font-size: 1rem;
+}
+
+.article p {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.sub-heading {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+}
+
+em {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.more-articles {
+    background-color: var(--color-green);
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+}
