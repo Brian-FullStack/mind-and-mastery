@@ -2,7 +2,7 @@
 A static website built with HTML and CSS.
 # Table of Contents
 - [Introduction](#)
-- [UX](#)
+- [UX](#UX)
     - [Scope](#Scope)
     - [Design](#Design)
     - [Colour Pallet](#Colour-Pallet)
@@ -28,3 +28,30 @@ A static website built with HTML and CSS.
 # Introduction
 The aim of this project is to build a website that people can find out more about Stoicism. The website aims to be an online resource where users can access articles, books, podcasts and sign up for a newsletter.
 The idea to build a website about stoicism came from seeing a book called The Daily Stoic on my kitchen table.
+
+# UX
+ ## Scope
+ ## User Stories
+ ## Design
+ ## Colour Pallet
+ ## Wireframes
+
+# Features
+ ## Site Wide Features
+ ## Home Page
+ ## Articles
+ ## Resources
+ ## My Mastery
+
+# Technologies Used
+
+# Testing
+ ## Testing User Stories
+ ## HTML Validation
+ ## CSS Validation
+ ## Lighthouse Testing
+ ## Bugs in Development
+
+ # Deployment
+ # Credits
+ # Acknowledgements
