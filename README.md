@@ -24,3 +24,7 @@ A static website built with HTML and CSS.
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 - [Acknowledgements](#Acknowledgements)
+
+# Introduction
+The aim of this project is to build a website that people can find out more about Stoicism. The website aims to be an online resource where users can access articles, books, podcasts and sign up for a newsletter.
+The idea to build a website about stoicism came from seeing a book called The Daily Stoic on my kitchen table.
