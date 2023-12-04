@@ -4,11 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Font Awsome Kit CDN-->
+    <script src="https://kit.fontawesome.com/970bd2bd30.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Mind & Mastery</title>
 </head>
 
 <body>
+    <!--Navigation Area-->
+    <header>
+        <nav id="navbar">
+            <span id="logo">Mind & Mastery</span>
 
+            <!--Mobile Burger Menu -->
+            <input type="checkbox" id="navButton">
+            <label for="navButton" id="navButtonLabel"><i class="fa-solid fa-bars"></i></label>
+
+            <div class="menu">
+                <ul class="navbar-list">
+                    <li class="navbar-list-item">
+                        <a href="index.html" class="nav-item active">Home</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#articles" class="nav-item">Articles</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#" class="nav-item">Resources</a>
+                    </li>
+                    <li class="navbar-list-item">
+                        <a href="#" class="nav-item">My Mastery</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Footer-->
+    <footer>
+
+        <div id="footerNav">
+
+            <div id="quickLinks">
+                <span id="footerLogo">Mind & Mastery</span>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Articles</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">My Mastery</a></li>
+                </ul>
+            </div>
+
+            <div id="socialLinks">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com" class="social-link" aria-label="Facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Brian-FullStack/mind-and-mastery" class="social-link"
+                            aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" class="social-link" aria-label="Youtube" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" class="social-link" aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr id="footerRule">
+        <div id="footerSmallText">All rights reserved. Educational purposes only.</div>
+    </footer>
 </body>
 
 </html>
