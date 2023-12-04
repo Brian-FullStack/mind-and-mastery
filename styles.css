@@ -621,6 +621,24 @@ footer {
     box-shadow: 0 4px 15px 3px #868685;
 }
 
+.main-article-image-2 {
+    background: url(assets/images/jessica-felicio-YEbFUPYfUlo-unsplash.jpg) no-repeat center center/cover;
+    width: 70%;
+    height: 500px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 3px #868685;
+}
+
+.main-article-image-3 {
+    background: url(assets/images/estee-janssens-zEqkUMiMxMI-unsplash.jpg) no-repeat center center/cover;
+    width: 70%;
+    height: 500px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 3px #868685;
+}
+
 .article-page-content {
     display: flex;
     align-items: flex-start;
@@ -704,6 +722,14 @@ em {
 
 .aside-card-image-2 {
     background: url(assets/images/estee-janssens-zEqkUMiMxMI-unsplash.jpg) no-repeat center center/cover;
+    height: 200px;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 3px #868685;
+}
+
+.aside-card-image-3 {
+    background: url(assets/images/door-image.jpg) no-repeat center center/cover;
     height: 200px;
     margin: 1rem;
     border-radius: 8px;
