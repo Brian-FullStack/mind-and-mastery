@@ -661,8 +661,9 @@ footer {
 }
 
 em {
-    font-size: 1rem;
-    font-weight: 300;
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .daily-stoic-link a {
