@@ -14,7 +14,7 @@
     <!--Navigation Area-->
     <header>
         <nav id="navbar">
-            <span id="logo">Mind & Mastery</span>
+            <span><a href="index.html" id="logo" aria-label="Home Page">Mind & Mastery</a></span>
 
             <!--Mobile Burger Menu -->
             <input type="checkbox" id="navButton">
@@ -40,20 +40,20 @@
         <div class="container">
             <div class="form-container">
                 <h1 id="formTitle">Sign Up</h1>
-                <form action="">
+                <form action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                     <label for="fullName">Full Name</label>
                     <input type="text" name="fullName" placeholder="James Bond" required>
 
                     <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="Bond007@mi5.uk">
+                    <input type="email" name="email" placeholder="Bond007@mi5.uk" required>
 
                     <label for="password">Password</label>
-                    <input type="password" name="password" placeholder="Password">
+                    <input type="password" name="password" placeholder="Password" required>
 
                     <button class="btn-site-wide">Create Account</button>
 
                     <div id="TsAndCs">
-                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" required>
                         <label for="checkbox" class="smallText">By signing up you agree to our <a href="#">Terms &
                                 Conditions</a></label>
                     </div>
@@ -64,7 +64,8 @@
                 </div>
 
                 <div id="alternateSignUp">
-                    <div id="signUpWithGoogle"><i class="fab fa-google"></i>Sign up with Google</div>
+                    <div id="signUpWithGoogle"><i class="fab fa-google"></i>Sign up with Google
+                    </div>
                     <div id="alternateSignUpIcons">
                         <div class="signUpWithIcon"><i class="fab fa-twitter"></i></div>
                         <div class="signUpWithIcon"><i class="fab fa-facebook"></i></div>

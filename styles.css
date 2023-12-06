@@ -657,6 +657,11 @@ em {
     margin-right: 1rem;
 }
 
+#signUpWithGoogle:hover {
+    background-color: var(--color-brown);
+    font-weight: bold;
+}
+
 #alternateSignUpIcons {
     display: flex;
     justify-content: space-evenly;
