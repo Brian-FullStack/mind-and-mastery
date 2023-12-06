@@ -80,61 +80,6 @@ body {
     text-decoration: none;
 }
 
-/**Media Queries for Mobile Navigation*/
-
-@media (max-width: 600px) {
-
-    #logo {
-        font-size: 1.5rem;
-    }
-
-    .navbar {
-        position: fixed;
-        z-index: 99;
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
-
-    .menu {
-        position: absolute;
-        background-color: var(--color-dark);
-        left: 0;
-        top: 100%;
-        width: 100%;
-        height: 100vh;
-        display: none;
-    }
-
-    .navbar-list {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar-list-item {
-        margin: 1rem 0;
-    }
-
-    /*Navigation Burger Menu*/
-    #navButton:checked~.menu {
-        display: block;
-    }
-
-    #navButtonLabel {
-        display: block;
-    }
-
-    #navButtonLabel {
-        font-size: 2rem;
-        color: var(--color-light);
-    }
-}
-
-
-
 /*Hero Image and Overlay*/
 #heroImg {
     /*Photo by Cristina Gottardi on Unsplash*/
@@ -191,27 +136,6 @@ body {
 .btn-site-wide:hover {
     background-color: var(--color-brown);
 
-}
-
-/*Hero Section Media Queries*/
-@media (max-width: 600px) {
-    .title-text {
-        font-size: 4rem;
-        text-align: center;
-    }
-
-    #heroCopy {
-        font-size: 1.5rem;
-        width: 100%;
-        color: var(--color-light);
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    .btn-site-wide {
-        font-size: 1.5rem;
-        padding: .75rem 2rem;
-    }
 }
 
 /*Subscription Area*/
@@ -284,8 +208,7 @@ body {
     margin: .5rem;
 }
 
-/*Subscription Area Media Queries*/
-@media (max-width: 600px) {
+@media (max-width: 950px) {
 
     #subscribeBanner {
         display: flex;
@@ -474,46 +397,6 @@ body {
     background: url("assets/images/alyona-grishina-BBmi4nJjKk8-unsplash.jpg") no-repeat center center/cover;
 }
 
-@media (max-width: 600px) {
-
-    .heading-sitewide {
-        font-size: 2rem;
-    }
-
-    .cards-container {
-        margin-top: 5rem;
-        padding: 0%;
-        width: 100%;
-    }
-
-    .card-primary {
-        margin-bottom: 3rem;
-    }
-
-    .card-secondary {
-        margin-bottom: 5rem;
-    }
-
-    .mt--20 {
-        margin: 3rem auto 3rem;
-    }
-
-    .dark-card {
-        margin: 0 auto 2rem auto;
-    }
-
-    .card-image-container {
-        height: 250px;
-    }
-
-    .card-image-container:nth-of-type(1) {
-        margin: -2rem auto 1rem auto;
-    }
-
-
-}
-
-
 /*Footer Area*/
 footer {
     background-color: var(--color-dark);
@@ -575,26 +458,6 @@ footer {
     margin: 1rem auto;
     text-align: center;
     color: var(--color-light);
-}
-
-/*Footer Media Queries*/
-@media (max-width: 600px) {
-
-    #footerNav {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #quickLinks,
-    #socialLinks {
-        margin-top: 1rem;
-    }
-
-    #socialLinks ul {
-        display: flex;
-        flex-direction: row;
-    }
 }
 
 /*Read Article One Page*/
@@ -753,27 +616,6 @@ em {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 600px) {
-    .article-page-content {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-    }
-
-    .article {
-        width: 100%;
-    }
-
-    .main-article-image {
-        width: 100%;
-    }
-
-    .more-articles {
-        width: 100%;
-    }
-}
-
-
 /**My Mastery Page and Form*/
 .container {
     padding-top: 4rem;
@@ -917,3 +759,200 @@ em {
         display: none;
     }
 }
+
+
+/*Media Queries for Mobile Devices*/
+
+@media (max-width: 600px) {
+
+    /**START Media Queries for Mobile Navigation*/
+    #logo {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        position: fixed;
+        z-index: 99;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: var(--color-dark);
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-list-item {
+        margin: 1rem 0;
+    }
+
+    /*Navigation Burger Menu*/
+    #navButton:checked~.menu {
+        display: block;
+    }
+
+    #navButtonLabel {
+        display: block;
+    }
+
+    #navButtonLabel {
+        font-size: 2rem;
+        color: var(--color-light);
+    }
+
+    /**END Media Queries for Mobile Navigation*/
+
+    /*START Hero Section Media Queries*/
+    .title-text {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #heroCopy {
+        font-size: 1.5rem;
+        width: 100%;
+        color: var(--color-light);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .btn-site-wide {
+        font-size: 1.5rem;
+        padding: .75rem 2rem;
+    }
+
+    /*END Hero Section Media Queries*/
+
+    /*START Subscription Area Media Queries*/
+    #subscribeBanner {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    #subscribeBannerCTA {
+        width: 100%;
+    }
+
+    #subscribeBannerCTA>p {
+        font-size: 1.25rem;
+    }
+
+    .secondary-title {
+        font-size: 2rem;
+    }
+
+    #subscribeBannerForm {
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    #subscribeBannerForm form input {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    #subscribeBannerForm form button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    /*END Subscription Area Media Queries*/
+
+    /*START Articles and Card Area Media Queries*/
+    .heading-sitewide {
+        font-size: 2rem;
+    }
+
+    .cards-container {
+        margin-top: 5rem;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .card-primary {
+        margin-bottom: 3rem;
+    }
+
+    .card-secondary {
+        margin-bottom: 5rem;
+    }
+
+    .mt--20 {
+        margin: 3rem auto 3rem;
+    }
+
+    .dark-card {
+        margin: 0 auto 2rem auto;
+    }
+
+    .card-image-container {
+        height: 250px;
+    }
+
+    .card-image-container:nth-of-type(1) {
+        margin: -2rem auto 1rem auto;
+    }
+
+    /*END Articles and Card Area Media Queries*/
+
+    /*START Footer Media Queries*/
+    #footerNav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #quickLinks,
+    #socialLinks {
+        margin-top: 1rem;
+    }
+
+    #socialLinks ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*END Footer Media Queries*/
+
+    /*START Article Page Media Queries*/
+    .article-page-content {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .main-article-image,
+    .main-article-image-2,
+    .main-article-image-3 {
+        width: 100%;
+    }
+
+    .more-articles {
+        width: 100%;
+    }
+
+    /*END Article Page Media Queries*/
+}
+
+
+/*Media Queries for Tablet Devices*/
