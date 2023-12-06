@@ -208,44 +208,6 @@ body {
     margin: .5rem;
 }
 
-@media (max-width: 950px) {
-
-    #subscribeBanner {
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem;
-    }
-
-    #subscribeBannerCTA {
-        width: 100%;
-    }
-
-    #subscribeBannerCTA>p {
-        font-size: 1.25rem;
-    }
-
-    .secondary-title {
-        font-size: 2rem;
-    }
-
-    #subscribeBannerForm {
-        width: 100%;
-        padding-top: 1.5rem;
-    }
-
-    #subscribeBannerForm form input {
-        width: 100%;
-        padding: 1rem;
-        font-size: 1rem;
-    }
-
-    #subscribeBannerForm form button {
-        width: 100%;
-        font-size: 1.5rem;
-    }
-}
-
-
 /* Articles and Card Area*/
 #articles-home-page {
     margin: 2rem 1rem;
@@ -763,7 +725,7 @@ em {
 
 /*Media Queries for Mobile Devices*/
 
-@media (max-width: 600px) {
+@media (max-width: 698px) {
 
     /**START Media Queries for Mobile Navigation*/
     #logo {
@@ -956,3 +918,127 @@ em {
 
 
 /*Media Queries for Tablet Devices*/
+@media (max-width: 900px) {
+
+
+    .navbar {
+        position: fixed;
+        z-index: 99;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: var(--color-dark);
+        left: 0;
+        top: 100%;
+        width: 100%;
+        height: 100vh;
+        display: none;
+    }
+
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-list-item {
+        margin: 1rem 0;
+    }
+
+    /*Navigation Burger Menu*/
+    #navButton:checked~.menu {
+        display: block;
+    }
+
+    #navButtonLabel {
+        display: block;
+    }
+
+    #navButtonLabel {
+        font-size: 2rem;
+        color: var(--color-light);
+    }
+
+    /**END Media Queries for Mobile Navigation*/
+
+    #subscribeBanner {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    #subscribeBannerCTA {
+        width: 100%;
+    }
+
+    #subscribeBannerCTA>p {
+        font-size: 1.25rem;
+    }
+
+    .secondary-title {
+        font-size: 2rem;
+    }
+
+    #subscribeBannerForm {
+        width: 100%;
+        padding-top: 1.5rem;
+    }
+
+    #subscribeBannerForm form input {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    #subscribeBannerForm form button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    /*START Articles and Card Area Media Queries*/
+    .heading-sitewide {
+        font-size: 2rem;
+    }
+
+    .cards-container {
+        width: 100%;
+        margin: 0;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-primary {
+        margin-bottom: 3rem;
+    }
+
+    .card-secondary {
+        margin-bottom: 5rem;
+    }
+
+    .mt--20 {
+        margin: 3rem auto 3rem;
+    }
+
+    .dark-card {
+        margin: 0 auto 2rem auto;
+    }
+
+    .card-image-container {
+        height: 250px;
+    }
+
+    .card-image-container:nth-of-type(1) {
+        margin: -2rem auto 1rem auto;
+    }
+
+    /*END Articles and Card Area Media Queries*/
+}
+
+@media (max-width: 1450px) {}
