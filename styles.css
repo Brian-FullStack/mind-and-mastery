@@ -812,12 +812,55 @@ em {
     background-color: #D9D9D9;
 }
 
-.form-container form input:hover,
-.form-container form input:focus {
+.form-container form input:hover {
     border: 3px solid var(--color-yellow);
 }
 
 .form-container form label {
     margin-left: 1rem;
+    color: #D9D9D9;
+}
+
+#TsAndCs {
+    font-size: .75rem;
+    margin-top: 1rem;
+}
+
+#formSeperation hr {
+    color: #D9D9D9;
+    margin: 1rem auto;
+}
+
+#signUpWithGoogle {
+    background-color: var(--color-yellow);
+    padding: .5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #D9D9D9;
+    text-align: center;
+    box-shadow: 0 6px 8px #535353;
+}
+
+#signUpWithGoogle i {
+    margin-right: 1rem;
+}
+
+#alternateSignUpIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signUpWithIcon {
+    background-color: var(--color-light);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    color: var(--color-dark);
+    font-size: 1.5rem;
+    box-shadow: 0 6px 8px #535353;
+}
+
+.signUpWithIcon:hover {
+    background-color: var(--color-yellow);
     color: #D9D9D9;
 }
