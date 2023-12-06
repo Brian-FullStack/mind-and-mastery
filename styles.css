@@ -83,7 +83,7 @@ body {
 /*Hero Image and Overlay*/
 #heroImg {
     /*Photo by Cristina Gottardi on Unsplash*/
-    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg) no-repeat center center/cover;
+    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.webp) no-repeat center center/cover;
     height: 100vh;
     /* background-repeat: no-repeat;
     background-position: center;
@@ -677,7 +677,7 @@ em {
 }
 
 .formImage {
-    background: url("assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg") no-repeat center center/cover;
+    background: url("assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.webp") no-repeat center center/cover;
     height: 100%;
     position: relative;
     border-radius: 8px;
