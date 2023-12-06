@@ -777,11 +777,12 @@ em {
 /**My Mastery Page and Form*/
 .container {
     padding-top: 4rem;
+    display: flex;
 }
 
 .form-container {
     background-color: var(--color-green);
-    margin: 2rem;
+    margin: 2rem 0 2rem 2rem;
     border-radius: 8px;
     padding: 2rem 1rem;
     width: 40%;
@@ -863,4 +864,40 @@ em {
 .signUpWithIcon:hover {
     background-color: var(--color-yellow);
     color: #D9D9D9;
+}
+
+.formImageContainer {
+    width: 60%;
+    margin: 2rem 2rem 2rem 0;
+    border-radius: 8px;
+    position: relative;
+}
+
+.formImage {
+    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg) no-repeat center center/cover;
+    height: 100%;
+    position: relative;
+    border-radius: 8px;
+    z-index: -1;
+    top: -100%;
+}
+
+#formImageOverlay {
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(56, 56, 53), rgba(56, 56, 53, .5));
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formImageOverlay .secondary-title {
+    width: 90%;
+}
+
+#formImageOverlay p {
+    color: #D9D9D9;
+    font-size: 2rem;
+    width: 90%;
 }
