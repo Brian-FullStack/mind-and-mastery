@@ -874,7 +874,7 @@ em {
 }
 
 .formImage {
-    background: url(assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg) no-repeat center center/cover;
+    background: url("assets/images/cristina-gottardi-Pl8ZMtFiyi8-unsplash.jpg") no-repeat center center/cover;
     height: 100%;
     position: relative;
     border-radius: 8px;
@@ -900,4 +900,20 @@ em {
     color: #D9D9D9;
     font-size: 2rem;
     width: 90%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding-top: 6rem;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: 1rem auto 2rem auto;
+    }
+
+    .formImageContainer {
+        display: none;
+    }
 }
