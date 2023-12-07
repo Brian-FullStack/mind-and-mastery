@@ -1046,3 +1046,148 @@ em {
 
     /*END Articles and Card Area Media Queries*/
 }
+
+@media (max-width: 1281px) {
+
+    /* Articles and Card Area*/
+    #articles-home-page {
+        margin: 2rem 1rem;
+        padding: 1rem;
+    }
+
+    .heading-sitewide {
+        font-family: 'Cinzel', serif;
+        font-size: 3rem;
+        color: var(--color-dark);
+    }
+
+    .cards-container {
+        width: 90%;
+        margin: 5rem auto 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .card-primary {
+        background-color: #D9D9D9;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        color: var(--color-dark);
+        border-radius: 8px;
+        margin-bottom: 2rem;
+    }
+
+    .card-primary:first-of-type {
+        height: fit-content;
+    }
+
+    /*https://copyprogramming.com/howto/select-first-div-of-mutliple-div-with-same-class-name-duplicate#select-first-div-of-mutliple-div-with-same-class-name-duplicate*/
+    /*Target the first element in multiple divs*/
+    .card-image-container:nth-of-type(1) {
+        margin: -4rem auto 1rem auto;
+    }
+
+    .card-image-container {
+        background-color: var(--color-green);
+        height: 300px;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px 3px #868685;
+        margin-top: 1rem;
+    }
+
+    /*Photo by Alexander Tsang on Unsplash*/
+    .image-container-1 {
+        background: url("assets/images/door-image-min.jpg") no-repeat center center/cover;
+        border-radius: 8px;
+        height: 100%;
+    }
+
+    /*Photo by Estée Janssens on Unsplash*/
+    .image-container-2 {
+        background: url("assets/images/estee-janssens-zEqkUMiMxMI-unsplash-min.jpg") no-repeat center center/cover;
+        border-radius: 8px;
+        height: 100%;
+    }
+
+    /*Photo by Jessica Felicio on Unsplash*/
+    .image-container-3 {
+        background: url("assets/images/jessica-felicio-YEbFUPYfUlo-unsplash-min.jpg") no-repeat center center/cover;
+        border-radius: 8px;
+        height: 100%;
+    }
+
+    .card-secondary {
+        background-color: var(--color-yellow);
+        width: 350px;
+        height: fit-content;
+        border-radius: 8px;
+    }
+
+    .secondary-card-copy {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-copy-container {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-category {
+        color: var(--color-brown);
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    .card-title {
+        font-family: 'Cinzel', serif;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .card-article {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-footer {
+        display: flex;
+        align-items: center;
+    }
+
+    .article-link a {
+        color: var(--color-dark);
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .article-link {
+        margin: 0 auto 0 .5rem;
+    }
+
+    .article-readtime {
+        color: var(--color-brown);
+        font-size: 1rem;
+    }
+
+    .mt--20 {
+        margin-top: -28rem;
+    }
+
+    .dark-card {
+        background-color: var(--color-dark);
+        color: var(--color-light);
+        margin-top: -4.5rem;
+    }
+
+    .red {
+        background-color: var(--color-red);
+        color: var(--color-light);
+    }
+
+}
