@@ -14,15 +14,12 @@ A static website built with HTML and CSS.
     - [Site Wide Features](#Site-Wide-Features)
     - [Home Page](#Home-Page)
     - [Articles](#Articles)
-    - [Resources](#Resurces)
     - [My Mastery](#My-Mastery)
-- [Technologies Used](#Languages,-Frameworks-and-Technologies-Used)
+- [Technologies Used](#Technologies-Used)
 - [Testing](#Testing)
-    - [Testing User Stories](#Testing-User-Stories)
     - [HTML Validation](#HTML-Validation)
     - [CSS Validation](#CSS-Validation)
     - [Lighthouse Testing](#Lighthouse-Testing)
-    - [Bugs in Development](#Bugs-in-Development)
 - [Deployment](#Deployment)
 - [Credits](#Credits)
 - [Acknowledgements](#Acknowledgements)
@@ -76,19 +73,122 @@ I have added media queries to adjust to mobile breakpoints and have used rem and
 
 # Features
  ## Site Wide Features
+ ### Navigation
+ I wanted to make moving throughtout the site as easy as possible for the user and I feel like my use of responsive navigation which is fixed to the top of the screen as they scroll as well as a simple navigation in the footer achieve this.
+
+ ![Desktop Navigation](assets/images/navigation-desktop.png)
+ Desktop Navigation
+ ![Mobile Navigation](assets/images/navigation-burger.png)
+ Mobile Responsive Burger Menu
+ ![Mobile Navigation](assets/images/navigation-expanded.png)
+ Mobile Navigation Expanded
+ ![Footer Navigation](assets/images/navigation-footer.png)
+ Footer Navigation
+
+ Each Navigation link has a hover effect applied to make it clear to the user that it is clickable.
+
+ 
+### Footer
+As well as the footer being a point of navigating the site for the user it also acts as home for users to connect with Mind & Mastery on social channels.
+I have included some small text at the bottom of the footer to simulate where copyright or other relevant information might go.
+![Footer Navigation](assets/images/navigation-footer.png)
+
  ## Home Page
+ The Home Page can be broken into 3 seperate sections
+ the Hero section where the user sees a CTA as well as the name of the website and what its about
+![Hero Section](assets/images/hero-section.png)
+
+ The Subscription Banner is simply a Call to Actiion for the user to sign up, using the form, for the Newsletter and other email associated content from Mind & Mastery
+ ![Subscription Banner](assets/images/subscription-banner.png)
+
+ The Quick Links is the section containing the articles and links to their respective pages. I also have a container with a Quote from a famous  stoic because its relevant to the site. I have a container with a quick review from a subscriber and another small CTA to the sign up page.
+ ![Quick Links](assets/images/quick-reads-1.png)
+ ![Quick Links](assets/images/quick-reads-2.png)
  ## Articles
+ For consistency each Article page follows the same layout.
+ a heading followed by the image, followed by the article and a link to the origional article
+ Each Article page also has an aside containing links to other articles which make it easier for users to read the next one instead of returning to the home page.
+ ![Article Page](assets/images/article-page-1.png)
+ ![Article Page](assets/images/article-page-2.png)
  ## My Mastery
+ The My Mastery page is the point of entry into the resources that the site offers. It is a simple sign up form with validation to. I added a relevant image beside the form with the same Call to Action copy the user has seen before throughout the site as to let them know that they have reached the right form.
+ ![My Mastery](assets/images/my-mastery.png)
 
 # Technologies Used
 
+[HTML](https://html.com/html5/) is used for adding all the copy and images to each page as well as creating forms and lists.
+
+[CSS](https://www.w3schools.com/Css/) is used throughout this project to style the overall website.
+
+[Colormind](http://colormind.io/) is used for the color pallet.
+
+[Font Awsome](https://fontawesome.com/) was used for adding Icons
+
+[Unsplash](https://unsplash.com/) was where I got of the images on this site license free.
+
+[GitHub](https://github.com) is used as a remote repository for the projects source code.
+
+[Git](https://git-scm.com/) was used to commit and push the code to GitHub.
+
+[Visual Studio Code](https://visualstudio.microsoft.com/) is the IDE I used for writing the code for this project.
+
+[Figma](https://figma.com/) was used for creating wireframes
+
+[Image Resizer](https://imageresizer.com/) is where I reduced the size of the images inorder to reduce the loadtime of each page.
+
+[favicon.io](https://favicon.io/) is the site I used to create the site icon.
+
+
 # Testing
- ## Testing User Stories
  ## HTML Validation
+ ![HTML Validation](assets/images/html-validation.png)
  ## CSS Validation
+ ![CSS Validation](assets/images/CSS-validation.png)
  ## Lighthouse Testing
- ## Bugs in Development
+ I tested the preformance of each page of the site using Chrome Lighthouse testing. There is room for improvment with performance and SEO in the future but due to time constraints I didn't have time to fix it.
+ - Home Page
+ ![Home Page Lighthouse](assets/images/lighthouse-home.png)
+  - Article Page
+ ![Article Page Lighthouse](assets/images/lighthouse-article.png)
+ - My Mastery Page
+ ![My Mastery Page Lighthouse](assets/images/Screenshot%202023-12-07%20001949.png)
+
+
 
  # Deployment
+## Git Hub Pages
+
+I deployed this website using GitHub pages. The process I used is as follows:
+
+- I logged into my Github account and selected my project from my repositories.
+- I clicked on 'Settings' in the repository.
+- In the menu on the left I clicked on 'Pages'.
+- I then clicked on 'Source'.
+- I clicked on the dropdown menu that said 'None' and then selected 'Main'.
+- After the page reloaded I clicked on the link to the deployed site.
+
+## Forking this GitHub Repository
+
+Follow these steps to fork the GitHub Repository
+
+- Log into GitHub and find the repository.
+- Click the 'Fork' button located in the top right of the page.
+- This will make a copy of the repository on your own GitHub account.
+
+## Clone this Repository
+
+To make a local clone of this repository follow these steps:
+
+- Log into GitHub and find the repository.
+- Click on the 'Code' button.
+- To clone the repository using HTTPS, copy the url.
+- Open Git and change the current working directory to where you want the cloned directory to be made.
+- In the terminal type 'git clone' followed by the https url.
+- Press enter
+- The local clone will be created.
+
  # Credits
+ - All of the content for each article came straight from [The Daily Stoic](https://dailystoic.com/) website. 
+ - Each image was taken from [Unsplash](https://unsplash.com/)
+ - I had some difficulty styling the images in the cards but I learned how to target specific elements in divs from [Here](https://copyprogramming.com/howto/select-first-div-of-mutliple-div-with-same-class-name-duplicate#select-first-div-of-mutliple-div-with-same-class-name-duplicate*)
  # Acknowledgements
