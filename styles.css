@@ -1045,6 +1045,29 @@ em {
     }
 
     /*END Articles and Card Area Media Queries*/
+
+    /*START Article Page Media Queries*/
+    .article-page-content {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .main-article-image,
+    .main-article-image-2,
+    .main-article-image-3 {
+        width: 100%;
+    }
+
+    .more-articles {
+        width: 100%;
+    }
+
+    /*END Article Page Media Queries*/
 }
 
 @media (max-width: 1281px) {
