@@ -27,6 +27,9 @@ A static website built with HTML and CSS.
 # Introduction
 The aim of this project is to build a website that people can find out more about Stoicism. The website aims to be an online resource where users can access articles, books, podcasts and sign up for a newsletter.
 The idea to build a website about stoicism came from seeing a book called The Daily Stoic on my kitchen table.
+![Am I Responsive](assets/images/am-i-responsive.png)
+
+## [Live Site](https://brian-fullstack.github.io/mind-and-mastery/)
 
  # Target Audience
  My target audience for this website is people between the ages of 20 and 45. Men and Women who want a point of reference for all things stoic and philosophy related. I wanted to keep the website predictiable and easy to navigate but also add a contempory  feel throughout. The use of high quality images and layouts acieve this.
