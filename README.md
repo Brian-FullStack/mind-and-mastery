@@ -192,3 +192,4 @@ To make a local clone of this repository follow these steps:
  - Each image was taken from [Unsplash](https://unsplash.com/)
  - I had some difficulty styling the images in the cards but I learned how to target specific elements in divs from [Here](https://copyprogramming.com/howto/select-first-div-of-mutliple-div-with-same-class-name-duplicate#select-first-div-of-mutliple-div-with-same-class-name-duplicate*)
  # Acknowledgements
+ I would like to give a huge shout out to my mentor for giving me valuable advice on how to tackle this project. A big thank you to everyone in the Code Institute Slack channels and to my brother for leaving a copy of The Daily Stoic on the kitchen table which was my main source of inspiration for building this website.
